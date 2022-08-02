@@ -1,0 +1,34 @@
+body
+{
+	background-color: #67AA98;
+	font-family: "century gothic", verdana,sans-serif;
+}
+/* je suis un commentaire */ 
+h1
+{
+	font-size:80px;
+	color : red ;
+	font-size :italic;
+}
+p{
+	color :blue;
+	font-weight: bold;
+}
+/* on peut styler aussi 2 balise en faisant : h1,p {ecrire tous ce que tu veux}*/
+.c1
+{
+	color:red;
+	font-size: 20px;
+}
+#i1
+{
+	color:blue;
+}
+strong
+{
+	border: 2px solid black;
+}
+div
+{
+	background-color: #88BB11;
+}

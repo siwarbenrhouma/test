@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> un premier page HTML</title>
+	<meta charset="utf-8"> 
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!--ceci notre titre  commentaire  -->
+	<h1>le premier titre principale</h1>
+	<!-- pour rentrer a la ligne avec la balise <p> il faut taper la balise <br> --> 
+	<!-- la balise strong ecrire le paragraphe en gras alors la balise em l'ecrire inclinee
+	voir les exemples ci dessous -->
+	
+	<p>
+		un paragraphe avec <strong>une partie tres importante</strong> 
+	</p>
+	<p>
+		un paragraphe avec<em> une partie relativement importante</em> 
+	</p>
+	<p>un paragraphe<mark>avec un contenu marqué </mark> 
+	</p>
+	<!--comment faire une liste non ordonnee voir l'exemple ci dessous -->
+	<ul style="color: grey ;">
+		<li>pomme</li>
+		<li>vélo</li>
+		<li>guitare</li>
+	</ul>
+	<!--comment une liste ordonnee avec des numero que ce soit (123) par defaut ou bien(I II III VI ) ou bien (A B C) avec l'option type voir l'exeemple ci dessous-->
+
+	<ol type="A">
+		<li>Introduction</li>
+		<li>partie I</li>
+		<li>partie II</li>
+		<li>partie III</li>
+		<li>conclusion</li>
+	</ol>
+	<!-- faire un lien externe :-->
+	<p>cliquer <a href="http://wikipedia.org" target="_blank">ici </a> pour se deplacer vers la page d'acceuil de wikipédia </p>
+	<!-- vous pouvez aussi faire des liens entre vos fichiers enregistree en utilisant des chemins relative comme le systeme d'exploi. --> 
+
+
+	<pre> 
+    un premier paragraphe
+    un deuxieme paragraghe avec retour a la ligne 
+    des espace      entre      les mots
+	</pre>
+	<!-- la balise <pre> </pre> retourne sur la page web tout ce que tu veux ecrire de la meme maniere que vous avez ecrit -->
+	<h1>les ancres en HTML </h1>
+	<p>acces direct a notre ancre <a href="#ancre1">"ancre1"</a></p>
+	<h2 id="ancre1">une premiere ancre </h2>
+	<!--donner l'acces a envoyer un mail a une personne-->
+	<p>m'envoyer<a href="mailto:ounissinour30@gmail.com"> un mail</a></p>
+	<!-- inserer une image -->
+	<img src="téléchargement.jpg">
+	<h1 class ="c1" id="i1">un titre pour applique le style il est de classe c1</h1>
+    <p class="c1"> un paragraphe pour appliquer le style il est de classe c1
+    </p>
+    <!-- idm pour le id juste il faut remplacer class par id mais poura la page css il faut les ecire avec un # exemple 
+    	#c1{ecrire tous ce que tu veux }-->
+
+
+    <!-- par experience le id toujours gagne par exemple si on a deux coleurs differentes-->
+
+    <!-- pour appliquer les styles il ya un ordre de perioritaire 
+    	1-l'attribut le plus proche 
+    	2- le style qui se trouve dans le head
+    	3-l'element css
+    	4- l'heritage
+    -->
+    <div>
+    	<p>
+    		un paragraphe n°1
+    	</p>
+    	<p>un deuxieme paragraphe </p>
+    </div>
+
+
+
+
+</body>
+</html>
